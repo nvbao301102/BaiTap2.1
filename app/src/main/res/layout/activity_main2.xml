@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03477E"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/txtWel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="WELCOME T4TEK"
+        android:textColor="#f20"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username là: "
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="User"
+            android:textColor="#D50000"
+            android:textSize="25sp">
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password là: "
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Pass"
+            android:textColor="#D50000"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
