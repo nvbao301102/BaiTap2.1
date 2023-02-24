@@ -39,8 +39,6 @@ class MainActivity : AppCompatActivity() {
                 dialog.show()
             }
         }
-
-
     }
 
     override fun onPause() {
